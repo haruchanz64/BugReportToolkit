@@ -1,0 +1,25 @@
+{
+  "name": "BugReporter.InputSystem",
+  "rootNamespace": "BugReporter.InputSystemBridge",
+  "references": [
+    "BugReporter.Runtime",
+    "Unity.InputSystem"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "BUG_REPORTER_INPUT_SYSTEM"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.unity.inputsystem",
+      "expression": "1.0.0",
+      "define": "BUG_REPORTER_INPUT_SYSTEM"
+    }
+  ],
+  "noEngineReferences": false
+}

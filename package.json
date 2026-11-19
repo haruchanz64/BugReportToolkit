@@ -1,0 +1,27 @@
+{
+  "name": "com.haruchanz64.bug-reporter",
+  "version": "1.0.0",
+  "displayName": "In-Game Bug Reporter & Repro Capture",
+  "description": "Zero-dependency Unity runtime bug reporter and repro capture toolkit with screenshot, log/input ring buffers, performance & scene snapshots, .zip bundle export, webhook/GitHub/Trello transports, and an Editor Report Viewer.",
+  "unity": "2021.3",
+  "keywords": [
+    "bug-reporter",
+    "qa",
+    "playtesting",
+    "repro",
+    "debug",
+    "diagnostics",
+    "unity-tool"
+  ],
+  "author": {
+    "name": "haruchanz64",
+    "url": "https://haruchanz64.github.io"
+  },
+  "samples": [
+    {
+      "displayName": "Basic Example",
+      "description": "Example IBugContextProvider and runtime setup script.",
+      "path": "Samples~/BasicExample"
+    }
+  ]
+}
