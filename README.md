@@ -19,6 +19,15 @@ A zero-dependency Unity runtime bug reporting and repro capture package for QA, 
   - `TrelloCardTransport` (REST API card creation)
 - **Editor Report Viewer (`Tools > Bug Reporter > Report Viewer`):** Inspect any `.zip` bug bundle inside Unity with screenshot preview, filterable logs, scene snapshot, input timeline, and one-click Markdown copy.
 
+## Installation (Unity Package Manager)
+
+1. Open **Window > Package Manager** in Unity.
+2. Click **+** (top-left) > **Add package from git URL...**
+3. Enter:
+   ```
+   https://github.com/haruchanz64/bug-reporter.git
+   ```
+
 ## Quick Start
 
 1. Press **F9** during Play Mode (or call `BugReporter.Core.BugReporter.Open()` from any UI button or debug console).
