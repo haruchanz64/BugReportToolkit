@@ -25,7 +25,7 @@ A zero-dependency Unity runtime bug reporting and repro capture package for QA, 
 2. Click **+** (top-left) > **Add package from git URL...**
 3. Enter:
    ```
-   https://github.com/haruchanz64/bug-reporter.git
+   https://github.com/haruchanz64/BugReportToolkit.git
    ```
 
 ## Quick Start
